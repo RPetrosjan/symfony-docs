@@ -1239,7 +1239,7 @@ http_cache
 allow_reload
 ............
 
-**type**: ``string``
+**type**: ``boolean`` **default**: ``false``
 
 Specifies whether the client can force a cache reload by including a
 Cache-Control "no-cache" directive in the request. Set it to ``true``
